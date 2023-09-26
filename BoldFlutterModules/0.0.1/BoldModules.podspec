@@ -1,6 +1,4 @@
 
-#url = URI.encode('file:' + __dir__ + '/Modules/Loans.zip')
-
 
 Pod::Spec.new do |spec|
 
@@ -13,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Jhoan Gordillo" => "jhoan.gordillo@bold.co" }
   spec.platform     = :ios
   spec.platform     = :ios, "12.0"
-  spec.source       = { :http => "https://github.com/jhoanGordilloBold/Specs/archive/refs/tags/0.0.1.zip" }
+  spec.source       = { :http => "https://github.com/jhoanGordilloBold/Specs/releases/download/0.0.1/Loans.zip" }
 
   spec.vendored_frameworks   = 'Loans/Release/App.xcframework', 'Loans/Release/FlutterPluginRegistrant.xcframework', 'Loans/Release/webview_flutter_wkwebview.xcframework'
 
